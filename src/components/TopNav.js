@@ -1,20 +1,9 @@
 import React, { useState } from 'react'
-import{AiOutlineMenu, AiOutlineSearch,AiOutlineClose,AiFillTag} from 'react-icons/ai'
-import { BsFillCartFill, BsPerson} from 'react-icons/bs'
-import {TbTruckReturn, icons} from 'react-icons/tb'
+import{AiOutlineMenu, AiOutlineSearch,AiOutlineClose} from 'react-icons/ai'
+import { BsFillCartFill} from 'react-icons/bs'
 import {FaGoogleWallet} from 'react-icons/fa'
 import {MdHelp,MdAccountCircle,MdDeliveryDining,MdFavorite} from 'react-icons/md'
-import { Link ,NavLink,Route,Routes} from 'react-router-dom'
-import Home from '../pages/Home'
-import Meal from '../components/Meal'
-import AboutUs from '../pages/Aboutus'
-import Contact from '../pages/contact'
-import MyAccount from '../pages/MyAccount'
-import Delivery from '../components/Delivery'
-import MyFavorites from '../pages/MyFavorites'
-import MyWallet from '../pages/MyWallet'
-import Help from '../pages/Help'
-import MyCart from '../pages/MyCart'
+import { Link ,NavLink} from 'react-router-dom'
 
 const TopNav = () => {
   const [sideNav, setSideNav]=useState(false)
